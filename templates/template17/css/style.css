@@ -15448,7 +15448,7 @@ max-width: 750px;
 @media screen and (max-width: 400px){
   .emoji-picker > emoji-picker{ --num-columns: 6;}
 }
-textarea#content{border: none;min-height: 100px;}
+textarea#content{border: none;min-height: 169px;}
 #wish-form textarea{margin-bottom:0;border-radius:0!important;resize: vertical;overflow: hidden;}
 #wish-form .textAreaIcons{position:relative;text-align:right;background: #fff;padding: 10px;border-bottom: 1px solid #cde0ef;border-top: 1px solid #f3f1f1;}
 #wish-form .textAreaIcons span{color: #333;cursor:pointer;margin-right:4px;}

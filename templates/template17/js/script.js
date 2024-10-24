@@ -876,11 +876,12 @@ masonryGridSetting();
                 }
             },
             submitHandler: function (form) {
+                console.log($(form).serialize())
                 $("#loader").css("display", "inline-block");
                 $.ajax({
-                    type: "POST",
-                    url: "/wish",
-                    data: $(form).serialize(),
+                    type: "GET",
+                    url: "https://script.google.com/macros/s/AKfycbx40-o5S4CufsegX6LNoA3U5aKnZnzVX6ZCH4h-c7baIrSLdSg3htXXyk7dj-2hX9rf6g/exec",
+                    data: "action=write&" + $(form).serialize(),
                     success: function (res) {
                         $( "#loader").hide();
                         if(!res.error){
