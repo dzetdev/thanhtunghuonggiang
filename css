@@ -33,3 +33,8 @@
   font-display: swap;
   src: url(s/splash/v6/KtksAL2RZoDkbU6Ro_nC.ttf) format('truetype');
 }
+.slide-bg-image {
+    background-size: cover;       /* phóng to cho vừa khung, có thể crop */
+    background-position: center;  /* crop đều 2 bên, lấy trung tâm */
+    background-repeat: no-repeat; /* không lặp ảnh */
+}

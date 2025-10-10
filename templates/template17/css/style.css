@@ -15536,3 +15536,8 @@ textarea#content{border: none;min-height: 169px;}
   border-style: solid;
   border-color: rgb(255 255 255) transparent transparent transparent;
 }
+.slide-bg-image {
+    background-size: cover;       /* phóng to cho vừa khung, có thể crop */
+    background-position: center;  /* crop đều 2 bên, lấy trung tâm */
+    background-repeat: no-repeat; /* không lặp ảnh */
+}
